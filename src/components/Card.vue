@@ -19,8 +19,9 @@
           type="is-info extend"
           class="has-text-weight-bold mt-5"
           inverted
-          >GO</b-button
         >
+          <router-link to="/managevehicle">GO</router-link>
+        </b-button>
       </div>
     </div>
     <footer class="">

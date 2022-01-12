@@ -2,10 +2,7 @@
   <b-navbar type="is-info">
     <template #brand>
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
-        <img
-          src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
-          alt="Lightweight UI components for Vue.js based on Bulma"
-        />
+        <div class="subtitle" style="color: white">DATA EXPLORER</div>
       </b-navbar-item>
     </template>
     <template #start> </template>
@@ -15,7 +12,7 @@
         <a style="color: white" class="mr-3"> Admin </a>
         <div class="block">
           <b-icon icon="account" size="is-large" type="is-dark"></b-icon>
-          <b-icon icon="view-dashboard" size="is-large" type="is-primary">
+          <b-icon icon="view-dashboard" size="is-large" type="is-light">
           </b-icon>
         </div>
       </b-navbar-item>
