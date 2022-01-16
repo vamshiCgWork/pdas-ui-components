@@ -28,6 +28,11 @@ const routes = [
     path: '/manageparts',
     name: 'ManageParts',
     component: () => import('../views/ManageParts')
+  },
+  {
+    path: '/approvingpirce',
+    name: 'ApprovingPrice',
+    component: () => import('../views/ApprovingPrice')
   }
 ];
 
